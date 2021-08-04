@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Accediendo GPT-3 "
-date:   2021-07-27 00:45:36 +0100
+title:  "Accediendo a GPT-3"
+date:   2021-08-05 01:25:36 +0200
 tags: AI GPT-3
 ---
 
