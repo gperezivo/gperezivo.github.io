@@ -2,7 +2,7 @@
 layout: post
 title:  "Bot Framework: otra manera de acceder a tus datos"
 date:   2021-07-27 00:35:36 +0100
-tags: Bot-Framework Azure SolidQ-Summit
+tags: AI Bot-Framework Azure SolidQ-Summit
 ---
 
 ¿Existe otra manera de consumir información además del reporting o el bi? Aprende a usar el [Bot Framework](/tag/bot-framework) de Microsoft.
