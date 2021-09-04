@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : ".NET 6 – Minimal API: La nueva manera de hacer APIs",
+      "title-lower"    : ".net 6 – minimal api: la nueva manera de hacer apis",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "",
+      "tags"     : ".NET, API, Novedades, VerneGroup",
+      "url"      : "/2021/09/03/net6-minimal-api.html",
+      "date"     : "2021-09-03 07:25:36 -0500",
+      "content"     : "He escrito un artículo sobre las novedades de la última preview de .NET 6 en el blog visionarios  Con la llegada de .NET 6 (preview 7 a día de redacción) y C# 10.0 podemos encontrar features muy in..."
+    } ,
+  
+    {
       "title"    : "Accediendo a GPT-3",
       "title-lower"    : "accediendo a gpt-3",
       "sub-titile" : "",
