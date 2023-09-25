@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "Cómo instalar la RC1 de .NET 6 en Linux",
+      "title-lower"    : "cómo instalar la rc1 de .net 6 en linux",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "",
+      "tags"     : ".NET, Novedades",
+      "url"      : "/2021/09/17/net6-release-candidate.html",
+      "date"     : "2021-09-17 17:04:24 -0500",
+      "content"     : "Ya tenemos Release Candidate de .NET 6!A principios de semana han liberado la primera release candidate de .NET 6Si te ha pasado como a mi, que has ido instalando las versiones preview de .NET 6 ta..."
+    } ,
+  
+    {
       "title"    : ".NET 6 – Minimal API: La nueva manera de hacer APIs",
       "title-lower"    : ".net 6 – minimal api: la nueva manera de hacer apis",
       "sub-titile" : "",
@@ -30,7 +42,7 @@
       "sub-titile" : "",
       "sub-titile-lower" : "",
       "categories" : "",
-      "tags"     : "AI, Azure, Cognitive-Services, Global-AI-Bootcamp",
+      "tags"     : "AI, Azure, Cognitive-Services, Global-AI-Bootcamp, Evento",
       "url"      : "/2021/07/26/global-ai-2020-azure-search.html",
       "date"     : "2021-07-26 18:45:36 -0500",
       "content"     : "Durante esta sesión Paula García y yo veremos cómo combinar diferentes servicios cognitivos de Microsoft como Azure Cognitive Search y Form Recognizer. Descubre cómo crear un servicio de búsqueda e..."
@@ -42,7 +54,7 @@
       "sub-titile" : "",
       "sub-titile-lower" : "",
       "categories" : "",
-      "tags"     : "AI, Bot-Framework, Azure, SolidQ-Summit",
+      "tags"     : "AI, Bot-Framework, Azure, SolidQ-Summit, Evento",
       "url"      : "/2021/07/26/bot-framework.html",
       "date"     : "2021-07-26 18:35:36 -0500",
       "content"     : "¿Existe otra manera de consumir información además del reporting o el bi? Aprende a usar el Bot Framework de Microsoft.Puedes ver el contenido entero de la sesión que hicimos Paula Frías y yo en el..."
@@ -54,7 +66,7 @@
       "sub-titile" : "",
       "sub-titile-lower" : "",
       "categories" : "",
-      "tags"     : "SQL, Monitoriacion, SolidQ-Summit",
+      "tags"     : "SQL, Monitoriacion, SolidQ-Summit, Evento",
       "url"      : "/2021/07/26/almacenamiento-monitorizacion-sql.html",
       "date"     : "2021-07-26 18:25:36 -0500",
       "content"     : "Dentro de las labores del buen DBA está la de asegurar el correcto estado de las instancias SQL y esto se consigue gracias a una buena monitorización del entorno y de las instancias en sí mismas. N..."
@@ -66,7 +78,7 @@
       "sub-titile" : "",
       "sub-titile-lower" : "",
       "categories" : "",
-      "tags"     : ".NET, Escalabilidad, SQL, SolidQ-Summit",
+      "tags"     : ".NET, Escalabilidad, SQL, SolidQ-Summit, Evento",
       "url"      : "/2021/07/26/summit-2018.html",
       "date"     : "2021-07-26 18:18:36 -0500",
       "content"     : "En esta sesión con mi compañero Enrique Catalá aprenderemos a detectar e implementar correctamente capas de acceso a datos . NET que escalen a las capacidades HW de nuestras máquinas. Saca provecho..."

@@ -6,9 +6,14 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://0.0.0.0:4000</loc>
-	    <lastmod>2021-09-04T04:02:28-05:00</lastmod>
+	    <lastmod>2023-09-24T20:27:16-05:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://0.0.0.0:4000/2021/09/17/net6-release-candidate.html</loc>
+                <lastmod>2021-09-17T17:04:24-05:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://0.0.0.0:4000/2021/09/03/net6-minimal-api.html</loc>
                 <lastmod>2021-09-03T07:25:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>

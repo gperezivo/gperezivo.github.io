@@ -8,7 +8,7 @@
 {%- if site.plainwhite.condensed_mobile contains page.layout -%}
 {% assign condensed_class = "condensed" %}
 {% else %}
-{% assign condensed_class = "" %}
+{% assign condensed_class = "condensed" %}
 {%- endif -%}
 
 <body>
@@ -31,6 +31,7 @@
       {%- if site.plainwhite.tagline -%}
       <p class="tagline">{{ site.plainwhite.tagline }}</p>
       {%- endif -%}
+        <a class="tagline" href="/cv">Curriculum Vitae</a>
       </div>
       {% capture footer %}
       {%- if site.plainwhite.social_links != '' -%}
@@ -146,26 +147,37 @@
         </ul>
       </nav>
       {%- endif -%}
+            
       <ul class="social about-footer {{condensed_class}}">
         <li style="list-style: none;">
-          <a href="https://www.credly.com/badges/61203384-c9c2-45f1-a87a-60889a4101b3" target="_blank">
-            <img src="/assets/mct.png" style="border-radius: 0px;  width: 100px"/>
-          </a>
+            <a href="https://www.credly.com/badges/61203384-c9c2-45f1-a87a-60889a4101b3" target="_blank">
+            <img src="/assets/mct.png" style="border-radius: 0px;  width: 110px"/>
+            </a>
         </li>
         <li style="list-style: none;">
-          <a href="https://www.credly.com/badges/7e44926a-3d8c-44f9-ab5a-8f52691f978b" target="_blank">
-            <img src="/assets/cer-devops.png" style="border-radius: 0px; width: 100px;"/>
-          </a>
+            <a href="https://www.credly.com/badges/7e44926a-3d8c-44f9-ab5a-8f52691f978b" target="_blank">
+            <img src="/assets/cer-devops.png" style="border-radius: 0px; width: 110px;"/>
+            </a>
         </li>
         <li style="list-style: none;">
-          <a href="https://www.credly.com/badges/e1ffadc5-aba4-437c-8539-b437e831ab8e" target="_blank">
-            <img src="/assets/cert-dev.png" style="border-radius: 0px;  width: 100px"/>
-          </a>
+            <a href="https://www.credly.com/badges/e1ffadc5-aba4-437c-8539-b437e831ab8e" target="_blank">
+            <img src="/assets/cert-dev.png" style="border-radius: 0px;  width: 110px"/>
+            </a>
         </li>
         <li style="list-style: none;">
-          <a href="https://www.credly.com/badges/83874496-171b-4272-b218-da0fdb047f4f" target="_blank">
-            <img src="/assets/Containers.png" style="border-radius: 0px;  width: 100px"/>
-          </a>
+            <a href="https://www.credly.com/badges/b182ffdc-0ea2-4992-8991-b3f96d1c29eb" target="_blank">
+                <img src="https://images.credly.com/size/340x340/images/61f56aa4-16fd-403c-90bc-1d90dba1fa99/image.png"  style="border-radius: 0px;  width: 110px"/>
+            </a>
+        </li>
+        <li style="list-style: none;">
+            <a href="https://www.credly.com/badges/14e011cd-0108-4a0a-8976-05c4bcd31906" target="_blank">
+                <img src="https://images.credly.com/size/340x340/images/2711b780-c3f1-4678-a9ae-f6c49c379189/specialty-azure-iot-developer-600x600.png"  style="border-radius: 0px;  width: 110px"/>
+            </a>
+        </li>
+        <li style="list-style: none;">
+            <a href="https://www.credly.com/badges/83874496-171b-4272-b218-da0fdb047f4f" target="_blank">
+            <img src="/assets/Containers.png" style="border-radius: 0px;  width: 110px"/>
+            </a>
         </li>
       </ul>
       <p class="about-footer {{condensed_class}}">&copy;

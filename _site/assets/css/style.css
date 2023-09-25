@@ -142,7 +142,7 @@ td, th { padding: 0; }
 For use with Jekyll and Pygments
 http://ethanschoonover.com/solarized
 SOLARIZED HEX      ROLE
---------- -------- ------------------------------------------
+
 base01    #586e75  body text / default code / primary content
 base1     #93a1a1  comments / secondary content
 base3     #fdf6e3  background
@@ -390,9 +390,9 @@ main { margin: 0 90px; display: flex; height: 100%; }
 
 @media screen and (max-width: 480px) { main { margin: 0; } }
 
-@media screen and (min-width: 769px) { main .content { max-width: calc(100% - 220px); margin-left: 220px; width: 100%; } }
+@media screen and (min-width: 769px) { main .content { max-width: calc(100% - 280px); margin-left: 280px; width: 100%; } }
 
-main .about { display: flex; height: 100vh; padding-bottom: 15vh; min-width: 220px; justify-content: center; flex-direction: column; align-items: center; }
+main .about { display: flex; height: 100vh; padding-bottom: 15vh; min-width: 280px; justify-content: center; flex-direction: column; align-items: center; }
 
 @media screen and (max-width: 768px) { main .about { height: auto; padding: 5vh 30px; } }
 
@@ -508,7 +508,7 @@ main { outline: none; min-height: 100vh; }
 
 .posts-labelgroup .search-results a:hover { color: black; background-color: #eee; }
 
-.posts-labelgroup .search-results a::before { content: '\e805'; font-family: "fontello"; font-style: normal; speak: none; display: inline-block; text-decoration: inherit; font-variant: normal; text-transform: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-feature-settings: 'liga'; margin-right: 14px; padding: 0 3px; color: #9aa0a6; }
+.posts-labelgroup .search-results a::before { content: '\e805'; font-family: "fontello"; font-style: normal; display: inline-block; text-decoration: inherit; font-variant: normal; text-transform: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-feature-settings: 'liga'; margin-right: 14px; padding: 0 3px; color: #9aa0a6; }
 
 .posts-labelgroup .search-container { display: block; flex-grow: 1; position: relative; }
 
@@ -539,23 +539,7 @@ input:checked + .slider:before { -webkit-transform: translateX(13px); -ms-transf
 
 .slider.round:before { border-radius: 50%; }
 
-.dark, .dark * { background-color: #171717; color: #f6f6f6; border-color: #e6e6e6; /* Solarized Dark 
-
-For use with Jekyll and Pygments
-
-http://ethanschoonover.com/solarized
-
-SOLARIZED HEX      ROLE
---------- -------- ------------------------------------------
-base03    #002b36  background
-base01    #586e75  comments / secondary content
-base1     #93a1a1  body text / default code / primary content
-orange    #cb4b16  constants
-red       #dc322f  regex, special keywords
-blue      #268bd2  reserved keywords
-cyan      #2aa198  strings, numbers
-green     #859900  operators, other keywords
-*/ /* Comment */ /* Error */ /* Generic */ /* Keyword */ /* Literal */ /* Name */ /* Operator */ /* Other */ /* Punctuation */ /* Comment.Multiline */ /* Comment.Preproc */ /* Comment.Single */ /* Comment.Special */ /* Generic.Deleted */ /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */ /* Generic.Inserted */ /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */ /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Date */ /* Literal.Number */ /* Literal.String */ /* Name.Attribute */ /* Name.Builtin */ /* Name.Class */ /* Name.Constant */ /* Name.Decorator */ /* Name.Entity */ /* Name.Exception */ /* Name.Function */ /* Name.Label */ /* Name.Namespace */ /* Name.Other */ /* Name.Property */ /* Name.Tag */ /* Name.Variable */ /* Operator.Word */ /* Text.Whitespace */ /* Literal.Number.Float */ /* Literal.Number.Hex */ /* Literal.Number.Integer */ /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */ /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */ /* Name.Builtin.Pseudo */ /* Name.Variable.Class */ /* Name.Variable.Global */ /* Name.Variable.Instance */ /* Literal.Number.Integer.Long */ }
+.dark, .dark * { background-color: #171717; color: #f6f6f6; border-color: #e6e6e6; /* Comment */ /* Error */ /* Generic */ /* Keyword */ /* Literal */ /* Name */ /* Operator */ /* Other */ /* Punctuation */ /* Comment.Multiline */ /* Comment.Preproc */ /* Comment.Single */ /* Comment.Special */ /* Generic.Deleted */ /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */ /* Generic.Inserted */ /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */ /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Date */ /* Literal.Number */ /* Literal.String */ /* Name.Attribute */ /* Name.Builtin */ /* Name.Class */ /* Name.Constant */ /* Name.Decorator */ /* Name.Entity */ /* Name.Exception */ /* Name.Function */ /* Name.Label */ /* Name.Namespace */ /* Name.Other */ /* Name.Property */ /* Name.Tag */ /* Name.Variable */ /* Operator.Word */ /* Text.Whitespace */ /* Literal.Number.Float */ /* Literal.Number.Hex */ /* Literal.Number.Integer */ /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */ /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */ /* Name.Builtin.Pseudo */ /* Name.Variable.Class */ /* Name.Variable.Global */ /* Name.Variable.Instance */ /* Literal.Number.Integer.Long */ }
 
 .dark .about img.light, .dark * .about img.light { display: none; }
 

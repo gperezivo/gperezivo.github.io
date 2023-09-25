@@ -2,7 +2,7 @@
 layout: post
 title:  "Almacenamiento y monitorización de configuración de SQL Server"
 date:   2021-07-27 00:25:36 +0100
-tags: SQL Monitoriacion SolidQ-Summit
+tags: SQL Monitoriacion SolidQ-Summit Evento
 ---
 
 

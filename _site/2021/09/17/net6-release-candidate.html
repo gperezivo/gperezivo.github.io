@@ -6,23 +6,24 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
-<title>Tag: API</title>
+<title>Cómo instalar la RC1 de .NET 6 en Linux</title>
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tag: API | Guillermo Pérez Ivorra - dotnet Developer - gperezivo.dev</title>
+<title>Cómo instalar la RC1 de .NET 6 en Linux | Guillermo Pérez Ivorra - dotnet Developer - gperezivo.dev</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Tag: API" />
+<meta property="og:title" content="Cómo instalar la RC1 de .NET 6 en Linux" />
 <meta name="author" content="gperezivo" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Desarrollador .NET desde hace ya una década embarrado en Kubernetes, DevOps y Microsoft Azure" />
-<meta property="og:description" content="Desarrollador .NET desde hace ya una década embarrado en Kubernetes, DevOps y Microsoft Azure" />
-<link rel="canonical" href="http://0.0.0.0:4000/tag/API.html" />
-<meta property="og:url" content="http://0.0.0.0:4000/tag/API.html" />
+<meta name="description" content="Ya tenemos Release Candidate de .NET 6! A principios de semana han liberado la primera release candidate de .NET 6" />
+<meta property="og:description" content="Ya tenemos Release Candidate de .NET 6! A principios de semana han liberado la primera release candidate de .NET 6" />
+<link rel="canonical" href="http://0.0.0.0:4000/2021/09/17/net6-release-candidate.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/2021/09/17/net6-release-candidate.html" />
 <meta property="og:site_name" content="Guillermo Pérez Ivorra - dotnet Developer - gperezivo.dev" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-17T17:04:24-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tag: API" />
+<meta property="twitter:title" content="Cómo instalar la RC1 de .NET 6 en Linux" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"gperezivo"},"description":"Desarrollador .NET desde hace ya una década embarrado en Kubernetes, DevOps y Microsoft Azure","headline":"Tag: API","url":"http://0.0.0.0:4000/tag/API.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gperezivo"},"dateModified":"2021-09-17T17:04:24-05:00","datePublished":"2021-09-17T17:04:24-05:00","description":"Ya tenemos Release Candidate de .NET 6! A principios de semana han liberado la primera release candidate de .NET 6","headline":"Cómo instalar la RC1 de .NET 6 en Linux","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2021/09/17/net6-release-candidate.html"},"url":"http://0.0.0.0:4000/2021/09/17/net6-release-candidate.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -110,18 +111,113 @@
     </section>
     <section class="content">
       <div class="post-container">
-<div class="post">
-<h1>Tag: API</h1>
-<ul>
-
-  <li><a href="/2021/09/03/net6-minimal-api.html">.NET 6 – Minimal API: La nueva manera de hacer APIs</a> (03 Sep 2021)<br>
+  <a class="post-link" href="/2021/09/17/net6-release-candidate.html">
+    <h2 class="post-title">Cómo instalar la RC1 de .NET 6 en Linux</h2>
+  </a>
+  <div class="post-meta">
+    <div class="post-date"><i class="icon-calendar"></i>Sep 17, 2021</div>
     
-  </li>
+      <ul class="post-categories">
+      
+        
+        <li>
+          <a href="/tag/.NET">.NET</a>
+        </li>
+      
+        
+        <li>
+          <a href="/tag/Novedades">Novedades</a>
+        </li>
+      
+      </ul>
+    <!---->
+  </div>
+  <div class="post">
+    <h3 id="ya-tenemos-release-candidate-de-net-6">Ya tenemos Release Candidate de <strong>.NET 6</strong>!</h3>
+<p>A principios de semana han liberado la primera release candidate de <strong>.NET 6</strong></p>
 
-</ul>
+<p>Si te ha pasado como a mi, que has ido instalando las versiones preview de <strong>.NET 6</strong> tanto en Windows como en Linux (WSL o nativo) seguramente estés en el mismo punto… preguntandote como actualizar a la nueva rc1</p>
 
-</div>
+<p>Es bastante sencillo, con este sencillo script es suficiente:</p>
 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Si como en mi caso, ya lo tenias de instalaciones anteriores, omite el primer paso</span>
+<span class="nb">mkdir</span> <span class="nv">$HOME</span>/dotnet_install
+<span class="nb">cd</span> <span class="nv">$HOME</span>/dotnet_install
+curl <span class="nt">-L</span> https://aka.ms/install-dotnet-preview <span class="nt">-o</span> install-dotnet-preview.sh
+<span class="nb">sudo </span>bash install-dotnet-preview.sh
+</code></pre></div></div>
+
+<p>Con esto actualizarás de la preview-7 (en mi caso) a la RC1 o la instalarás si no tenias ninguna versión previa.</p>
+
+<p><img src="/assets/dotnet-6-rc1.png" alt="dotnet 6 rc1" /></p>
+
+<p>Enjoy!</p>
+
+
+  </div>
+  <h2>Archive</h2>
+
+
+
+  
+  
+  <a href="/tag/Evento">Evento</a>
+
+  
+  
+  <a href="/tag/SolidQ-Summit">SolidQ-Summit</a>
+
+  
+  
+  <a href="/tag/AI">AI</a>
+
+  
+  
+  <a href="/tag/.NET">.NET</a>
+
+  
+  
+  <a href="/tag/SQL">SQL</a>
+
+  
+  
+  <a href="/tag/Novedades">Novedades</a>
+
+  
+  
+  <a href="/tag/Azure">Azure</a>
+
+  
+  
+  <a href="/tag/VerneGroup">VerneGroup</a>
+
+  
+  
+  <a href="/tag/Monitoriacion">Monitoriacion</a>
+
+  
+  
+  <a href="/tag/Global-AI-Bootcamp">Global-AI-Bootcamp</a>
+
+  
+  
+  <a href="/tag/GPT-3">GPT-3</a>
+
+  
+  
+  <a href="/tag/Escalabilidad">Escalabilidad</a>
+
+  
+  
+  <a href="/tag/Cognitive-Services">Cognitive-Services</a>
+
+  
+  
+  <a href="/tag/Bot-Framework">Bot-Framework</a>
+
+  
+  
+  <a href="/tag/API">API</a>
 </div>
 
     </section>
